@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Ollaya.Client.csproj" />
+  <Project Path="Ollaya.Client.Tests/Ollaya.Client.Tests.csproj" />
+</Solution>
