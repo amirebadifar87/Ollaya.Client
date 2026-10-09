@@ -1,21 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <PackageId>Ollaya.Client</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>Amir</Authors>
-    <Description>A simple .NET client for Ollaya - local decision models API</Description>
-    <PackageTags>ollaya;decision-models;ai;ml;local-ai</PackageTags>
-    <RepositoryUrl>https://github.com/ollaya-dev/ollaya</RepositoryUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
-    <RollForward>Major</RollForward>
-  </PropertyGroup>
+<PropertyGroup>
+  <TargetFramework>net8.0</TargetFramework>
+  <ImplicitUsings>enable</ImplicitUsings>
+  <Nullable>enable</Nullable>
+  <PackageId>Ollaya.Client</PackageId>
+  <Version>1.0.0</Version>
+  <Authors>Amir</Authors>
+  <Description>A simple .NET client for Ollaya - local decision models API</Description>
+  <PackageTags>ollaya;decision-models;ai;ml;local-ai</PackageTags>
+  <RepositoryUrl>https://github.com/amirebadifar87/Ollaya.Client</RepositoryUrl>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
+  <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  <RollForward>Major</RollForward>
+</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="8.0.5" />
